@@ -1,0 +1,8 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*", "/css/*", "/js/*"]
+  },
+  "apiLocation": "api",
+  "outputLocation": "dist"
+}
