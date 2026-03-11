@@ -13,7 +13,7 @@ export default function Navbar() {
         fontSize: '32px',
         fontWeight: 'bold',
         margin: '0'
-      }}>SAU</h1>
+      }}>หน้าหลัก / หน้า BMI / หน้า BMR / หน้า Car</h1>
     </nav>
   )
 }
