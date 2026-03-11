@@ -5,10 +5,13 @@ import bmi from './../assets/bmi.jpg'
 import bmr from './../assets/bmr.jpg'
 import car from './../assets/car.jpg'
 import Footer from './../components/Footer'
+import Navbar from './../components/navbar/Navbar'
 
 export default function Home() {
   return (
-    <div className='min-h-screen bg-gray-100 flex flex-col items-center justify-center px-6 py-12'>
+    <>
+      <Navbar />
+      <div className='min-h-screen bg-gray-100 flex flex-col items-center justify-center px-6 py-12'>
       {/* Header */}
       <div className='flex flex-col items-center mb-10'>
         <img src={calculator} alt='calculator' className='w-24 mb-4' />
@@ -40,6 +43,6 @@ export default function Home() {
         </Link>
       </div>
       <Footer />
-    </div>
+    </>
   )
 }
