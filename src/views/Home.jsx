@@ -4,6 +4,7 @@ import calculator from './../assets/calculator.jpg'
 import bmi from './../assets/bmi.jpg'
 import bmr from './../assets/bmr.jpg'
 import car from './../assets/car.jpg'
+import Footer from './../components/Footer'
 
 export default function Home() {
   return (
@@ -38,6 +39,7 @@ export default function Home() {
           <p className='text-gray-500 text-sm text-center'>คำนวณยอดผ่อนต่อเดือนและดอกเบี้ยรถยนต์</p>
         </Link>
       </div>
+      <Footer />
     </div>
   )
 }

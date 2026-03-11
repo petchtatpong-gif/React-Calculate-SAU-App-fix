@@ -1,6 +1,7 @@
 import React from 'react'
 import car from './../assets/car.jpg'
 import { Link } from 'react-router-dom'
+import Footer from './../components/Footer'
 
 export default function Car() {
   return (
@@ -84,6 +85,7 @@ export default function Car() {
           <h3>กลับหน้าหลัก</h3>
         </Link>
       </div>
+      <Footer />
     </>
   )
 }

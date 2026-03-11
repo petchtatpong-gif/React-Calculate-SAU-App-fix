@@ -1,6 +1,7 @@
 import React from 'react'
 import bmi from './../assets/bmi.jpg'
 import { Link } from 'react-router-dom'
+import Footer from './../components/Footer'
 
 export default function Bmi() {
   return (
@@ -49,6 +50,7 @@ export default function Bmi() {
           <h3>กลับหน้าหลัก</h3>
         </Link>
       </div>
+      <Footer />
     </>
   )
 }

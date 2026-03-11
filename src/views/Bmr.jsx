@@ -1,6 +1,7 @@
 import React from 'react'
 import bmr from './../assets/bmr.jpg'
 import { Link } from 'react-router-dom'
+import Footer from './../components/Footer'
 
 export default function Bmr() {
   return (
@@ -70,6 +71,7 @@ export default function Bmr() {
           <h3>กลับหน้าหลัก</h3>
         </Link>
       </div>
+      <Footer />
     </>
   )
 }
