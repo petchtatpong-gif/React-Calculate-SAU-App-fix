@@ -2,8 +2,18 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <nav className='bg-blue-600 py-5 flex justify-center'>
-      <h1 className='text-white text-3xl font-bold'>SAU</h1>
+    <nav style={{
+      backgroundColor: '#2563eb',
+      padding: '20px',
+      textAlign: 'center',
+      width: '100%'
+    }}>
+      <h1 style={{
+        color: 'white',
+        fontSize: '32px',
+        fontWeight: 'bold',
+        margin: '0'
+      }}>SAU</h1>
     </nav>
   )
 }

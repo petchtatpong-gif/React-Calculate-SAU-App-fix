@@ -4,14 +4,10 @@ import calculator from './../assets/calculator.jpg'
 import bmi from './../assets/bmi.jpg'
 import bmr from './../assets/bmr.jpg'
 import car from './../assets/car.jpg'
-import Footer from './../components/Footer'
-import Navbar from './../components/navbar/Navbar'
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <div className='min-h-screen bg-gray-100 flex flex-col items-center justify-center px-6 py-12'>
+    <div className='min-h-screen bg-gray-100 flex flex-col items-center justify-center px-6 py-12'>
       {/* Header */}
       <div className='flex flex-col items-center mb-10'>
         <img src={calculator} alt='calculator' className='w-24 mb-4' />
@@ -42,7 +38,6 @@ export default function Home() {
           <p className='text-gray-500 text-sm text-center'>คำนวณยอดผ่อนต่อเดือนและดอกเบี้ยรถยนต์</p>
         </Link>
       </div>
-      <Footer />
-    </>
+    </div>
   )
 }

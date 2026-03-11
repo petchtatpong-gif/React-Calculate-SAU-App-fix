@@ -1,14 +1,10 @@
 import React from 'react'
 import bmr from './../assets/bmr.jpg'
 import { Link } from 'react-router-dom'
-import Footer from './../components/Footer'
-import Navbar from './../components/navbar/Navbar'
 
 export default function Bmr() {
   return (
-    <>
-      <Navbar />
-      <div className='w-2/3 mx-auto mt-20 flex flex-col items-center shadow-lg rounded-lg p-10 bg-white'>
+    <div className='w-2/3 mx-auto mt-20 flex flex-col items-center shadow-lg rounded-lg p-10 bg-white'>
         {/* แสดงส่วนหัว */}
         <h1 className='text-2xl font-bold'>BMR Calculator</h1>
         <h3 className='text-gray-500'>คำนวณ BMR</h3>
@@ -73,7 +69,5 @@ export default function Bmr() {
           <h3>กลับหน้าหลัก</h3>
         </Link>
       </div>
-      <Footer />
-    </>
   )
 }
